@@ -8,7 +8,7 @@ cd ./qperf
 ./autogen.sh
 ./configure
 make install
-cd ../../iperf
+cd ../iperf
 ./configure
 make
 make install
