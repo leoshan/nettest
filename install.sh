@@ -1,7 +1,7 @@
 #!/bin/bash
-yum install -y gcc automake iperf3
+yum install -y gcc automake iperf3 texinfo
 git clone https://github.com/linux-rdma/qperf.git
-git clone https://github.com/linux-rdma/qperf.git
+git clone https://github.com/HewlettPackard/netperf.git
 git clone https://github.com/esnet/iperf.git
 cd ./qperf
 ./cleanup
